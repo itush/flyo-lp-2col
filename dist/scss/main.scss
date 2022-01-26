@@ -2,7 +2,7 @@
 @import 'responsive';
 
 
-.sec1, .sec2{
+.sec1{
     display: flex;
     width: 90vw;
     margin: 5vh auto;
@@ -65,8 +65,78 @@ header{
     }
 }
 
+.sec2{
+    background: url('../images/bg-curve-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    width: 100vw;
+    margin: 5vh auto;
+   
+}
+.sec2-left{
+    padding: 4em 0em 0em 4em;
+
+    h2{
+        font-weight: 700;
+        font-size: 2.5em;
+        color: $VDarkBlue; 
+        
+    }
+}
+
+.sec2-main-para{
+    margin: 1em 0 0 0;
+}
+
+.see-how{
+    display: flex;
+    align-items: baseline ; 
+    
+    
+    p{
+        color: $ModerateCyan;
+        border-bottom: 1px solid $ModerateCyan;
+        margin: 1em 0 0 0;       
+    }
+    img{
+        max-width: 100%;
+        margin: 0 0 0 .5em; 
+    }
+}
+
+.quotes{    
+    width: 22vw;
+    padding: 1em;    
+    border-radius: 1em;
+    background: white;
+    margin: 2em 0 0 0;
+    box-shadow: 1px 1px 20px $LightGray;
+
+    img{
+        max-width: 2.5em;
+        border-radius: 50%;
+    }
+    .quote-para{
+        margin: 1em 0;
+        font-size: .9em;
+    }
+    .user{
+        display: flex;
+        place-items: center;
+
+    .user-para{
+        margin: 0em 0em 0em 1em;
+        font-size: .7em;
+    }
+    }
+
+    
+}
 
 .sec2-right{
+    padding: 5em;
     img{
         max-width: 100%;
     }
