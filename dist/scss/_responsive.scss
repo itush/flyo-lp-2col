@@ -1,3 +1,117 @@
-// @include media-md {}
+@include media-md {
+    .sec1{
+        flex-direction: column-reverse;
+    }
+    .sec1-left{
+       width: 80vw;
+       margin: 0 auto;
+       padding: 0;      
+
+        .heading1{
+            text-align: center;   
+            font-size: 1.8em;       
+        }
+        .para1{text-align: center; 
+        
+        padding: 1em 0em;}
+       
+        #email1{
+            display: block;
+            width: 80vw;
+        }
+        #btn1{
+            width: 80vw;
+            margin: 1em 0;
+        }
+    }
+
+    .sec2{
+        margin: 0;
+        padding: 0;
+        flex-direction: column-reverse;
+        background: url('../images/bg-curve-mobile.svg');
+
+        .sec2-right{
+            margin: 0;
+            padding: 2em;
+        }
+    
+        .sec2-left{
+            margin: 0;
+            padding: 0;
+           
+            .heading2{
+                text-align: center;
+            }
+            .para2{
+                padding: 0 1.5em;
+            }
+            .see-how{
+                width: 40vw;
+               
+                margin: 0 auto;
+            }
+    
+            .quotes{
+                width: 80vw;
+                margin: 2em auto;
+            }
+    }    
+}
+
+    .sec3{
+        flex-direction: column;
+
+        .sec3-left{      
+           
+            padding: 0;
+
+        .heading3{
+            text-align: center;
+        }
+
+        .para3{
+            text-align: center;
+        }
+    }
+        .sec3-right{       
+           
+            #email2{
+                margin: 0 auto;
+                width: 60vw;
+            }
+            #btn2{
+                margin: 1em auto;
+                width: 60vw;
+                display: block;
+            }
+        }
+    
+    }
+
+    .sec4{
+        flex-direction: column;
+       .sec4-col1{
+        padding: 0 5em;
+       }
+
+       .sec4-col2, .sec4-col3{
+           padding: 2em 5em;
+       }
+
+       .sec4-col4{
+        width: 40vw;
+        margin: 0 auto;
+       }
+    }
+    }
+
+        
+    
+
+
+
+
+
 // @include media-lg {}
 // @include media-xl {}
