@@ -20,7 +20,7 @@ $LGBlue: hsl(240, 75%, 98%);
 $LightGray: hsl(0, 0%, 75%);
 
 @mixin media-md {
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 600px) {
       @content;
     }
   }
